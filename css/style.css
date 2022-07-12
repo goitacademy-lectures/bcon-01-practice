@@ -3,9 +3,43 @@ body {
   color: #22343d;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
   text-decoration: none;
+  color: currentColor;
+}
+
+/* common styles */
+
+.section-title {
+  font-size: 32px;
+  line-height: calc(48 / 32);
+}
+
+.section-title-small {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  background-color: transparent;
+}
+
+.btn-accent {
+  color: #ffffff;
+  background-color: #02897a;
+  border: 1px solid transparent;
 }
