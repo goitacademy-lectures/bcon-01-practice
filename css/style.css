@@ -43,3 +43,22 @@ body {
   background-color: #02897a;
   border: 1px solid transparent;
 }
+
+/* news-feed */
+.news-feed-descr {
+  font-weight: 500;
+  line-height: calc(26 / 16);
+}
+.news-feed-meta {
+  line-height: calc(28 / 16);
+}
+.news-feed-author {
+  font-weight: 700;
+}
+.news-feed-subtitle {
+  font-size: 24px;
+  line-height: calc(40 / 24);
+}
+.news-feed-subtitle.current {
+  color: #02897a;
+}
